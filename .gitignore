@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+*.out
+*.err
+slurm-*.out
+
+# Temporary files
+*.tmp
+*~
+*.swp
+
+# Large genomic/data files
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.bcf
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Analysis output directories
+output/
+outputs/
+results/
+tmp/
